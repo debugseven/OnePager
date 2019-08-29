@@ -1,0 +1,13 @@
+{
+	"name": "Banner",
+	"author": "Markus Dick",
+	"company": "novinet GmbH & Co KG",
+	"website": "https://novinet.de",
+	"repository": "https://github.com/nukeurself/testModules",
+	"description": "Ein Modul mit Bootstrap gebaut, gibt ein Fullscreen Bild aus.",
+	"requirements": [
+		"Bootstrap 4.0.0",
+		"MForm 1.0"
+	],
+	"previewImage": ""
+}
