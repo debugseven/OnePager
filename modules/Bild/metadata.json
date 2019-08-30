@@ -3,11 +3,9 @@
 	"author": "Markus Dick",
 	"company": "novinet GmbH & Co KG",
 	"website": "https://novinet.de",
-	"repository": "https://github.com/nukeurself/testModules",
 	"description": "Ein Modul mit Bootstrap gebaut, gibt ein Bild in seinen Orginal Maßen aus.",
-	"requirements": [
-		"Bootstrap 4.0.0",
-		"MForm 1.0"
-	],
-	"previewImage": ""
+	"requirements": {
+		"MForm": "5.3.1" 
+	},
+	"attributes": {}
 }
