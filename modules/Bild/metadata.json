@@ -5,7 +5,11 @@
 	"website": "https://novinet.de",
 	"description": "Ein Modul mit Bootstrap gebaut, gibt ein Bild in seinen Orginal Maßen aus.",
 	"requirements": {
-		"MForm": "5.3.1" 
+		"php": "7.1.10",
+        "redaxo": "5.8.0",
+        "addons": {
+            "MForm": "5.3.1" 
+        } 
 	},
 	"attributes": {}
 }

@@ -5,9 +5,11 @@
 	"website": "https://novinet.de",
 	"description": "Template für einen One Pager. Mit Fixed Header und Always At The Bottom Footer. Moil durch Bootstrap Layout.",
 	"requirements": {
-		"MForm": "5.3.1" 
+		"php": "7.1.10",
+        "redaxo": "5.8.0",
+        "addons": []
 	},
-    "atributes": {
+    "attributes": {
         "ctype":[],
         "modules":{
             "1":{

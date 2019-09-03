@@ -5,7 +5,11 @@
 	"website": "https://novinet.de",
 	"description": "Ein Modul mit Bootstrap gebaut, gibt ein Fullscreen Bild aus.",
 	"requirements": {
-		"MForm": "5.3.1" 
+		"php": "5.1",
+        "redaxo": "5.0",
+        "addons": {
+            "MForm": "5.3.1" 
+        } 
 	},
 	"attributes": {}
 }
