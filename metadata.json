@@ -1,6 +1,6 @@
 {
 	"url": "https://localhost.de/assets/publicModules.zip",
 	"name": "One Pager",
-	"repository": "https://github.com/nukeurself/testModules",
+	"repository": "https://github.com/nukeurself/OnePager",
 	"description": "One Pager Packet mit vielen Modulen. Das Template besteht aus Fixed Header und Always On The Bottom Footer. Mobil durch Bootstrap Layout."
 }
