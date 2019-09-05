@@ -1,0 +1,13 @@
+<?php
+$id = 1;
+$mf = new MForm();
+
+
+$mf->addFieldset("General");
+$mf->addMediaField(1, ["label" => "Bild"]);
+$mf->addSelectField("$id.0.type", [
+    "" => "Bild (Standard)",
+    "background" => "Hintergrund"
+], ["label" => "Typ"]);
+
+echo MBlock::show($id, $mf->show(), ["min" => 1, "max" => 1]);

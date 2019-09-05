@@ -1,0 +1,17 @@
+<?php
+$oData = new stdClass();
+$oData->in = rex_var::toArray("REX_VALUE[1]")[0];
+$oData->img = "/media/" . $oData->in["REX_MEDIA_1"];
+$oData->type = $oData->in["type"] ? $oData->in["type"] : "image";
+?>
+
+<?php if($oData->type == "image") { ?>
+    <div class="nv-module-banner mb-5">
+        <img class="w-100" src="<?=$oData->img?>" alt="Banner">
+    </div>
+<?php } else { ?>
+
+    <div class="nv-module-banner mb-5" style="background-image: url(<?=$oData->img?>); background-repeat: no-repeat; background-size: cover; background-position: center; height: 500px;">
+        
+    </div>
+<?php } ?>

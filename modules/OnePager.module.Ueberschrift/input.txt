@@ -1,0 +1,10 @@
+<?php
+$id = 1;
+$mf = new MForm();
+
+
+$mf->addFieldset("General");
+$mf->addTextField("$id.0.text", ["label" => "Text"]);
+
+
+echo MBlock::show($id, $mf->show(), ["min" => 1, "max" => 1]);

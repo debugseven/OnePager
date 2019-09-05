@@ -1,0 +1,11 @@
+<?php
+$oData = new stdClass();
+$oData->in = rex_var::toArray("REX_VALUE[1]")[0];
+$oData->img = "/media/" . $oData->in["REX_MEDIA_1"];
+?>
+
+<div class="nv-module-image row mb-5">
+    <div class="col-12">
+        <img class="w-100" src="<?=$oData->img?>" alt="Bild">
+    </div>
+</div>

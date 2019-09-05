@@ -1,0 +1,17 @@
+{
+	"name": "OnePager.module.Banner",
+	"author": "Markus Dick",
+	"company": "novinet GmbH & Co KG",
+	"website": "https://novinet.de",
+	"description": "Fullscreen Bild. Nur in CType Keyvisual (Fullscreen) verwendbar.",
+	"requirements": {
+		"php": "7.1.10",
+        "redaxo": "5.8.0",
+        "addons": {
+            "mform": "5.3.1",
+			"mblock": "3.1.0",
+			"media_manager":  "2.7.0"
+        } 
+	},
+	"attributes": {}
+}

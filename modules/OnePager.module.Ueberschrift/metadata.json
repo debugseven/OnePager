@@ -1,17 +1,16 @@
 {
-	"name": "Bild",
+	"name": "OnePager.module.Ueberschrift",
 	"author": "Markus Dick",
 	"company": "novinet GmbH & Co KG",
 	"website": "https://novinet.de",
-	"description": "Ein Modul mit Bootstrap gebaut, gibt ein Bild in seinen Orginal Maßen aus.",
+	"description": "Überschrifts Modul. Bitte in CType Content (100%) verwenden.",
 	"requirements": {
 		"php": "7.1.10",
         "redaxo": "5.8.0",
         "addons": {
 			"mform": "5.3.1",
-			"mblock": "3.1.0", 
-			"media_manager":  "2.7.0" 
-        } 
+			"mblock": "3.1.0" 
+        }  
 	},
 	"attributes": {}
 }

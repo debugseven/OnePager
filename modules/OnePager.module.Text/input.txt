@@ -1,0 +1,10 @@
+<?php
+$id = 1;
+$mf = new MForm();
+
+
+$mf->addFieldset("General");
+$mf->addTextAreaField("$id.0.text", ["label" => "Text", 'class'=>'cke5-editor', 'data-lang'=>'de', 'data-profile'=>'default']);
+
+
+echo MBlock::show($id, $mf->show(), ["min" => 1, "max" => 1]);

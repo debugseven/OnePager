@@ -3,14 +3,17 @@
 	"author": "Markus Dick",
 	"company": "novinet GmbH & Co KG",
 	"website": "https://novinet.de",
-	"description": "Template für einen One Pager. Mit Fixed Header und Always At The Bottom Footer. Moil durch Bootstrap Layout.",
+	"description": "Template für einen One Pager. Mit Fixed Header und Always At The Bottom Footer. Mobil durch Bootstrap Layout.",
 	"requirements": {
 		"php": "7.1.10",
         "redaxo": "5.8.0",
         "addons": []
 	},
     "attributes": {
-        "ctype":[],
+        "ctype": {
+            "1": "Keyvisual (Fullscreen)",
+            "2": "Content (100%)"
+        },
         "modules":{
             "1":{
                 "all":"1"

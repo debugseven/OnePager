@@ -1,0 +1,11 @@
+<?php
+$oData = new stdClass();
+$oData->in = rex_var::toArray("REX_VALUE[1]")[0];
+$oData->text = $oData->in["text"] ? $oData->in["text"] : "[text]";
+?>
+
+<div class="nv-module-text row mb-5">
+    <div class="col-lg-8">
+        <?=$oData->text?>
+    </div>
+</div>
