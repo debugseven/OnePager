@@ -1,0 +1,13 @@
+{
+	"name": "OnePager.module.Trennlinie",
+	"author": "Markus Dick",
+	"company": "novinet GmbH & Co KG",
+	"website": "https://novinet.de",
+	"description": "Trennlinien Modul. Bitte in CType Content (100%) verwenden.",
+	"requirements": {
+		"php": "7.1.10",
+        "redaxo": "5.8.0",
+        "addons": {} 
+	},
+	"attributes": {}
+}
