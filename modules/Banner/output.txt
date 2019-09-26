@@ -11,7 +11,7 @@ $oData->type = $oData->in["type"] ? $oData->in["type"] : "image";
     </div>
 <?php } else { ?>
 
-    <div class="nv-module-banner mb-5" style="background-image: url(<?=$oData->img?>); background-repeat: no-repeat; background-size: cover; background-position: center; height: 500px;">
+    <div class="nv-module-banner mb-5" style="background-image: url(<?=$oData->img?>);">
         
     </div>
 <?php } ?>

@@ -6,6 +6,6 @@ $oData->text = $oData->in["text"] ? $oData->in["text"] : "[Headline]";
 
 <div class="nv-module-headline row mb-4">
     <div class="col-12">
-        <h2 style="font-size: 2rem; color: black;"><?=$oData->text?></h2>
+        <h2><?=$oData->text?></h2>
     </div>
 </div>

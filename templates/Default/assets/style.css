@@ -1,0 +1,58 @@
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    position: relative;
+    color: grey;
+    font-weight: 300;
+    font-size: 18px;
+    padding-top: 100px;
+    z-index: 1;
+    padding-bottom: 200px;
+}
+
+header {
+    position: fixed;
+    width: 100vw;
+    height: 100px;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    border-bottom: 3px solid black;
+    background-color: white;
+}
+
+header h1 {
+    color: black;
+    font-size: 3rem;
+    margin: 0;
+    font-style: italic;
+}
+
+footer {
+    height: 200px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    color: white;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
+
+footer nav a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 312px) {
+    header h1 {
+        font-size: 2rem;
+    }
+}

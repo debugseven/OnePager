@@ -1,5 +1,5 @@
 <div class="nv-module-seperator row mb-5">
     <div class="col-12">
-        <hr style="border: none; height: 2px; margin: 0; background: black">
+        <hr>
     </div>
 </div>

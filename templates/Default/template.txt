@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>OnePager.de</title>
+</head>
+<body>
+    <header class="d-flex justify-content-center align-items-center">
+        <h1>OnePager.de</h1>
+    </header>
+    <main>
+        REX_ARTICLE[ctype=1]
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    REX_ARTICLE[ctype=2]
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center mb-4">
+                    <nav>
+                        <a href="/" class="mr-4">Impressum</a>
+                        <a href="/">Datenschutz</a>
+                    </nav>
+                </div>
+                <div class="col-12 d-flex justify-content-center">
+                    <p class="mb-0">Copyright <?=date("Y")?></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
