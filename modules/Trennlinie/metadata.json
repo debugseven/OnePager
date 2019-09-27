@@ -9,5 +9,6 @@
         "redaxo": "5.8.0",
         "addons": {} 
 	},
-	"attributes": {}
+	"attributes": {},
+	"screenshot": "https://redaxo.novinet.de/assets/screenshots/onepager/seperator.png"
 }

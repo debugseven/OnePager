@@ -22,5 +22,6 @@
         "categories":{
             "all":"1"
         }    
-    }
+    },
+    "screenshot": "https://redaxo.novinet.de/assets/screenshots/onepager/template.png"
 }
